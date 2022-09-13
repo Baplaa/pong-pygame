@@ -144,7 +144,7 @@ class GameScreen(Screen):
 
             #if a player reaches a score of 10, set the mode to FINISH and quit the screen
             #return the mode
-            if self.p1_score == 1 or self.p2_score == 1:
+            if self.p1_score == 10 or self.p2_score == 10:
                 self.mode = "FINISH"
                 self.running = False
 
